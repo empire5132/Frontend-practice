@@ -10,9 +10,10 @@ li{
     margin: 0;
     list-style: none;
     background-color: #DBDBDB;
-    height: auto;
-    text-align: center;
     height: 33px;
+    width: 80px;
+    text-align: center;
+    border: 15px #DBDBDB solid;
 }
 ul{
     padding: 0;
