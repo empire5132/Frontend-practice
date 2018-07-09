@@ -4,7 +4,7 @@
     height:200px;
     width: 100%;
     overflow: hidden;
-    background-image: url(banner.jpg);
+    background-image: url(/image/banner.jpg);
     clear: both;
     background-size: 100% auto;
     background-position: center;
