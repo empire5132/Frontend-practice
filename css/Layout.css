@@ -28,6 +28,6 @@ main{
 }
 div[id^="type"]{
     width: 85%;
-    background-color: orange;
+    background-color: black;
     float: right;
 }
