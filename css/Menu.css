@@ -1,25 +1,28 @@
 a{
     text-decoration: none;
+    font-size: 20px;
     color: #DC4747;	
     position: relative;
+    width: 10%;
     transform: translate(-50%, -50%);
-    font-size: 20px;
+    top: 10px;
 }
 li{
     padding: 0;
     margin: 0;
     list-style: none;
     background-color: #DBDBDB;
-    height: 70px;
-    width: 100px;
+    height: 60px;
     text-align: center;
-    border: 15px #DBDBDB solid;
+
 }
 ul{
     padding: 0;
     margin: 0;
-    width: 15%;
+    width: 10%;
     position: absolute;
+
+
 }
 ol{
     padding: 0;
@@ -34,4 +37,8 @@ div[class^="option"]{
     margin: 0;
 }
 #works{
+}
+nav{
+    overflow: hidden;
+
 }
