@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 #bannerpicbox{
-    height:350px;
+    height:300px;
     width: 100%;
     overflow: hidden;
     background-image: url(/image/banner1.png);
