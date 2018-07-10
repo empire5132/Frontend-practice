@@ -17,17 +17,18 @@ main{
     clear: both;	
 }
 #menu{
-    margin:30px 5% ;
     position: fixed;
-}
-#side{
-    width: 15%;
-    height: 100%;
-    float: left;
-    overflow: hidden;
+    margin:30px 5% ;
+    width: 100%;
 }
 div[id^="type"]{
-    width: 85%;
-    background-color: black;
+    width: 75%;
+   
     float: right;
+    margin-right: 5%;
+    margin-top: 30px;
+}
+#category{
+    text-align: center;
+    background-color: orange;
 }
