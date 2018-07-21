@@ -9,23 +9,38 @@
     background-size: 100% auto;
     background-position: center;
     }
+
 body{
     margin:0;
     padding: 0;
 }
 main{
     clear: both;	
+    margin-top: 50px;
+
+}
+#menubox{
+    width: 100%;
+    background-color: aqua;
+    position: absolute;
+    transition: top 0.3s;
+}
+nav{
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 #menu{
-    position: fixed;
-    margin:30px 5% ;
-    width: 100%;
+    position: relative;
+    transform: translate(-50%, 0);
+    left: 50%;
+    overflow: hidden;
+    width: 600px;
+    background-color: black;
 }
 div[id^="type"]{
-    width: 75%;
-   
-    float: right;
-    margin-right: 5%;
+    width: 80%;
+    margin: 5% 10%;
     margin-top: 30px;
 }
 #category{
