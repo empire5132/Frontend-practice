@@ -5,12 +5,13 @@ $(function(){
 //捲動瀏覽器
     var navPos = $("nav").offset().top;
 
-	$(window).scroll(function(event) {
+	$(window).scroll(function() {
 		if ($(window).scrollTop() > navPos) {
 			$("nav").css("position", 'fixed');
 		}
 		else{
 			$("nav").css("positiion",'static');
+			alert("Hello! I am an alert box!!");
 		}
 	});
 //捲動瀏覽器
