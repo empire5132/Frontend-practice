@@ -1,5 +1,4 @@
 $(function(){
-    $('#menu').load('/view/Homepage/menu1.html');
     $('#type1').load('/view/Homepage/type1.html');
     $('#type2').load('/view/Homepage/type2.html');
 
@@ -13,7 +12,22 @@ $(function(){
             // alert('Hello! I am an alert box!!');
         }
     });
+    //tab
+     $(function(){
+      $('section[id != "tab1"]') .hide();  
+      $('a').click(function() {
+          $('section').hide();
+          $($(this).attr('herf')).show();
+        return false;
+     });
 
+
+
+    });
+    //tab end
+
+
+//end
 });
     
 
