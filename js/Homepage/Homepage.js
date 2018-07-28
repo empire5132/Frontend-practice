@@ -9,23 +9,15 @@ $(function(){
             $('.nav').css('position', 'fixed');
         } else {
             $('.nav').css('position','static');
-            // alert('Hello! I am an alert box!!');
         }
     });
     //tab
-     $(function(){
-      $('section[id != "tab1"]') .hide();  
-      $('a').click(function() {
-          $('section').hide();
-          $($(this).attr('herf')).show();
-        return false;
-     });
-
-
-
+    $('section[id!="tab1"]').hide();  
+    $('a').click(function() {
+        $('section').hide();
+        $($(this).attr('href')).show();
     });
     //tab end
-
 
 //end
 });
