@@ -1,9 +1,8 @@
 $(function(){
-    $("a").click(function(){
-        $('#show').children('img').attr('src',$(this).attr('href'));
+    $('a').click(function(e){
+        e.preventDefault();
+        $('#show').children('img').attr('src', $(this).attr('href'));
 
-
-       return false 
     });
 
 
