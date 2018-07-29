@@ -9,26 +9,83 @@
     background-size: 100% auto;
     background-position: center;
     }
+
 body{
     margin:0;
     padding: 0;
 }
 main{
     clear: both;	
+    margin-top: 80px;
+
+}
+#menubox{
+    width: 100%;
+    background-color: aqua;
+    position: absolute;
+    transition: top 0.3s;
+}
+div.scrollmenu {
+     background-color: #DBDBDB;
+    white-space: nowrap;
+    width: 600px;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    width: 200px;
+    text-decoration: none;
+    color: #DC4747; 
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+nav{
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: static;
 }
 #menu{
-    position: fixed;
-    margin:30px 5% ;
-    width: 100%;
+    position: relative;
+    transform: translate(-50%, 0);
+    left: 50%;
+    overflow: hidden;
+    width: 600px;
+    background-color: black;
+
 }
 div[id^="type"]{
-    width: 75%;
-   
-    float: right;
-    margin-right: 5%;
+    width: 80%;
+    margin: 5% 10%;
     margin-top: 30px;
 }
 #category{
     text-align: center;
     background-color: orange;
+}
+#tab2{
+    width: 80%;
+    margin-left: 10%;
+    height: 450px;
+    border-style: solid;
+    border-color: #777;
+    border-radius: 20px;
+
+}
+#profile_picture{
+    width: 100px;
+    height: 100px;
+    background-image: url(/image/pig.png);
+    border-radius: 100%;
+    position: relative;
+}
+#mail{
+    width: 80%;
+    height: 20px;
+    margin-left: 10%;
+    background-color: #888;
 }
