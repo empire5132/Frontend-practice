@@ -65,7 +65,7 @@ div[id^="type"]{
 }
 #bar{
     background-image: url(/image/bar.jpg);
-    height: 20px;
+    height: 10px;
 }
 #category{
     text-align: center;
