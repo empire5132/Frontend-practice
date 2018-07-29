@@ -21,7 +21,7 @@ main{
 }
 #menubox{
     width: 100%;
-    background-color: aqua;
+    background-color:#DBDBDB;
     position: absolute;
     transition: top 0.3s;
 }
@@ -63,10 +63,13 @@ div[id^="type"]{
     margin: 5% 10%;
     margin-top: 30px;
 }
-#category{
-    text-align: center;
-    background-color: orange;
+#bar{
+     background-image: url(/image/bar.jpg);
+    height: 20px;
 }
+#category{
+    
+    }
 #tab2{
     width: 80%;
     margin-left: 10%;
