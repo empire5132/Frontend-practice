@@ -1,8 +1,9 @@
 $(function(){
     $("a").click(function(){
-        $("#show img").attr("src","$(this).attr("href")");
-        $(this).attr("href");
-
+        //好像是錯在這行
+        //$('#show').children('img').attr('src', '$(this).attr('href')');
+        //上面那行
+        alert($(this).attr('href'));
 
 
 
