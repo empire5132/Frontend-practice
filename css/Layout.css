@@ -63,12 +63,25 @@ div[id^="type"]{
     margin: 5% 10%;
     margin-top: 30px;
 }
-#bar{
+#bar,#bar_bot{
     background-image: url(/image/bar.jpg);
     height: 10px;
 }
+#bar_bot{
+    margin-top: 10px;
+}
 #category{
     text-align: center;
+    font-size: 25px;
+    margin: 10px 0;
+}
+#show{
+    display: inline-block;
+    width: 50%;
+    height: auto;
+}
+#test{
+    display: inline-block;
 }
 #tab2{
     width: 80%;
