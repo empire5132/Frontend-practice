@@ -7,3 +7,8 @@ li{
 	 -webkit-transition:ease  0.5s; /* Safari */
      transition:ease 0.5s;
 }
+#show{
+    display: inline-block;
+    width: 50%;
+    height: auto;
+}

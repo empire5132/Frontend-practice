@@ -75,11 +75,7 @@ div[id^="type"]{
     font-size: 25px;
     margin: 10px 0;
 }
-#show{
-    display: inline-block;
-    width: 50%;
-    height: auto;
-}
+
 #test{
     display: inline-block;
 }
