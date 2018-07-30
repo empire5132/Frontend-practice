@@ -4,3 +4,14 @@
     width: 50%;
     height: auto;
 }
+#info{
+	display: inline-block;
+    width: 45%;
+    margin-left: 5%;
+    float: right;
+    font-family: Microsoft JhengHei;
+}
+#info:after{
+	content: '';
+	clear: both;
+}
