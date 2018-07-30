@@ -4,4 +4,6 @@ li{
 	width: 150px;
 	margin-top: 10px;
 	display: inline-block;
+	 -webkit-transition:ease  0.5s; /* Safari */
+     transition:ease 0.5s;
 }
