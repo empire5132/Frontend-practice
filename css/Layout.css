@@ -21,7 +21,7 @@ main{
 }
 #menubox{
     width: 100%;
-    background-color: aqua;
+    background-color: #BDBDBD;
     position: absolute;
     transition: top 0.3s;
 }
