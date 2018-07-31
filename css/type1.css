@@ -4,11 +4,24 @@ li{
 	width: 150px;
 	margin-top: 10px;
 	display: inline-block;
-	 -webkit-transition:ease  0.5s; /* Safari */
-     transition:ease 0.5s;
+	-webkit-transition:ease  0.5s; /* Safari */
+    transition:ease 0.5s;
 }
-#show{
+#show1{
     display: inline-block;
     width: 50%;
     height: auto;
+}
+li:hover{
+	box-shadow: 1px 2px 8px 0 rgba(55, 0, 50, 0.5);
+}
+#info1{
+	display: inline-block;
+    width: 45%;
+    margin-left: 5%;
+    float: right;
+    font-size: 18px;
+}
+#gallery{
+	margin-right: 8px;
 }

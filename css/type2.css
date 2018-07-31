@@ -4,14 +4,18 @@
     width: 50%;
     height: auto;
 }
-#info{
+#info2{
 	display: inline-block;
     width: 45%;
     margin-left: 5%;
     float: right;
     font-family: Microsoft JhengHei;
+    font-size: 18px;
 }
-#info:after{
+#info2:after{
 	content: '';
 	clear: both;
+}
+#gallery{
+    margin-right: 8px;
 }

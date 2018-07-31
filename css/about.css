@@ -1,0 +1,18 @@
+#profile_picture{
+    width: 300px;
+    height: 500px;
+    background-image: url(/image/profile_pic.jpg);
+    display: inline-block;  
+    margin: 10px 0;
+    float: left;
+}
+#info3{
+    width: 300px;
+    height: 500px;
+    display: inline-block;  
+    margin: 10px 5%;
+    float: left;
+}
+.clearfix {
+  overflow: auto;
+}
