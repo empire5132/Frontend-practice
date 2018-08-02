@@ -1,18 +1,43 @@
 #profile_picture{
-    width: 300px;
+    width: 25%;
     height: 500px;
     background-image: url(/image/profile_pic.jpg);
+    background-position:left bottom;
     display: inline-block;  
     margin: 10px 0;
     float: left;
 }
 #info3{
-    width: 300px;
+    width: 65%;
     height: 500px;
     display: inline-block;  
     margin: 10px 5%;
     float: left;
+    font-size: 16pt;
 }
 .clearfix {
   overflow: auto;
+}
+div[id^="skill"]{
+    display: inline-block;
+    font-size: 16pt;
+}
+#skill1,#skill3{
+    margin:  20px 4% 20px 20%;
+    height: 80px;
+}
+#skill2,#skill4{
+    margin: 20px 4% 20px 5% ;
+    height: 80px;
+}
+span{
+    font-size: 10pt;
+}
+.skill_icon,.skill_info{
+    height: 80px;
+    padding: 0;
+    float: left;
+}
+.skill_info{
+    margin: 5px 0 0 10px;
 }
