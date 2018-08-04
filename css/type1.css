@@ -22,6 +22,12 @@ li:hover{
     float: right;
     font-size: 18px;
 }
+#info1 a{
+	color: #DC4747;
+}
+#info1 a:visited { 
+    color: purple;
+}
 #gallery{
 	margin-right: 8px;
 }

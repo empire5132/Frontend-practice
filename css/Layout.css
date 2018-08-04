@@ -84,9 +84,10 @@ div[id^="type"]{
     margin-bottom: 20px;
 }
 
-#mail{
+#contact{
     width: 80%;
-    height: 20px;
     margin-left: 10%;
-    background-color: #888;
+    margin: 30px auto;
+    font-size: 18pt;
+    text-align: center;
 }
