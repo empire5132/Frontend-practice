@@ -5,7 +5,7 @@
     background-image: url(/image/profile_pic.jpg);
     background-position:left bottom;
     display: inline-block;  
-    margin: 10px 0;
+    margin: 20px 0;
     float: left;
 }
 #info3{
@@ -18,7 +18,7 @@
 }
 #about1{
     font-size: 16pt;
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: center;
 }
 .clearfix {
@@ -29,7 +29,7 @@ div[id^="skill"]{
     font-size: 16pt;
 }
 #skill1,#skill3{
-    margin:  20px 4% 20px 20%;
+    margin:  20px 4% 20px 10%;
     height: 80px;
 }
 #skill2,#skill4{
@@ -46,4 +46,9 @@ span{
 }
 .skill_info{
     margin: 5px 0 0 10px;
+}
+#skill5{
+    height: 80px;
+    width: 100%;
+    margin-left: 20%;
 }
