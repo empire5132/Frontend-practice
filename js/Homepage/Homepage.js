@@ -1,5 +1,5 @@
 $(function(){
-    $(".se-pre-con").delay( 800 ).fadeOut("slow");
+    $(".se-pre-con").delay( 800).fadeOut("slow");
     $('#type1').load('/view/Homepage/type1.html');
     $('#type2').load('/view/Homepage/type2.html');
     $('#tab2').load('/view/Homepage/about.html')
